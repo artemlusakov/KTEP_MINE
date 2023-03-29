@@ -1,0 +1,13 @@
+.Modes_content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    width: 700px;
+}
+
+.All_Components_Modes{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+}
+

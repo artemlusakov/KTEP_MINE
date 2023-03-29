@@ -1,0 +1,81 @@
+.Coments_All{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.Coments_All img{
+    border: #000;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.Profil{
+    display: flex;
+}
+.Raiting{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+
+.Simple_rating_items{
+    overflow: hidden;
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.Simple_rating_item{
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Simple_rating_label{
+    flex: 0 0 20%;
+    height: 100%;
+    cursor: pointer;
+    color: #000;
+}
+
+.Simple_rating_label::before{
+    content: "★";
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.Simple_rating_item:checked,
+.Simple_rating_item:checked ~ .Simple_rating_label{
+    color: #faac18;
+}
+
+.Simple_rating_label:hover,
+.Simple_rating_label:hover ~ .Simple_rating_label,
+.Simple_rating_label:checked ~ .Simple_rating_label:hover
+{
+    color: #fabc47;
+}
+
+.Simple_rating{
+    position: relative;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.Simple_rating::before{
+    display: block;
+    content: "★★★★★";
+}

@@ -1,0 +1,20 @@
+.Card{
+    border: 1px solid #212121;
+    width: 300px;
+    height: 300px;
+    border-radius:20px ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Card_name{
+    display: flex;
+
+}
+
+.Card_name img{
+    height: 50px;
+    width: 50px;
+}

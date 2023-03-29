@@ -1,0 +1,160 @@
+.Navigate{
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    z-index: 999999999999;
+    background-color: #212121;
+}
+
+.Navigate_Content {
+    display: flex;
+    align-items: center;
+}
+
+.Navigate_Link ul{
+    display: flex;
+
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.Navigate_Link li{
+    list-style-type: none;
+}
+
+.Navigate_Content img{
+    height: 60px;
+}
+
+
+.Navigate_Link a {
+    text-decoration: none;
+    padding: 10px;
+    border:1px solid #fff;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+
+
+.Navigate_Link a:hover {
+    background-color: #383737;
+}
+
+.Navigate_Registration  {
+    border: 1px solid #fff;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px 15px;
+    background: none;
+}
+
+.Navigate_Registration a {
+    color: #fff;
+}
+
+.Futor{
+    background-color: #212121;
+    height: 150px;
+}
+
+.Registration{
+ display: flex;
+    align-items: center;
+}
+
+.Registration img {
+    margin-left: 20px;
+    height: 60px;
+    width: 70px;
+}
+
+.stils_logo img{
+    height: 100px;
+    padding-right: 20px;
+}
+
+
+
+.Burger_btn{
+    background-color: transparent;
+    display: none;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border: none;
+
+}
+
+.Burger_btn span {
+    transition: transform .5s, opacity .5s, background-color .5s;
+    left: 5px;
+   position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.Navigate.open .Burger_btn span{
+    background-color: #fff;
+}
+
+.Navigate.open .Burger_btn span:nth-child(1){
+    transform: translateY(0) rotate(45deg);
+}
+.Navigate.open .Burger_btn span:nth-child(2){
+    opacity: 0;
+}
+.Navigate.open .Burger_btn span:nth-child(3){
+    transform: translateY(0) rotate(-45deg);
+
+}
+
+.Burger_btn span:nth-child(1){
+    transform: translateY(-10px);
+
+}
+.Burger_btn span:nth-child(2){
+
+}
+.Burger_btn span:nth-child(3){
+    transform: translateY(10px);
+
+}
+
+
+@media (max-width: 1300px) {
+    .Burger_btn{
+       display: block;
+        z-index: 2;
+    }
+
+    .Navigate_Link{
+        position: absolute;
+        left: -350px;
+        top: 0;
+        width: 350px;
+        background: #212121;
+        padding: 75px 20px 20px 20px;
+        transition: transform .5s;
+    }
+
+    .Navigate_Link ul{
+        display: block;
+    }
+
+    .Navigate_Link li{
+        padding-top: 20px;
+    }
+
+    .Navigate.open .Navigate_Link{
+        transform: translateX(100%);
+    }
+}

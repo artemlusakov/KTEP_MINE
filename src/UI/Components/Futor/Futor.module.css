@@ -1,0 +1,11 @@
+.AllFutorComponents{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background: #212121;
+    color: white;
+}
+
+.Pocta{
+    font-size: 13px;
+}

@@ -1,0 +1,18 @@
+.Donaite{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:20% 20% 20% 20% 20% ;
+    grid-auto-rows: 400px 400px;
+    justify-items: center;
+    padding-bottom: 30px;
+}
+.headline img{
+    width: 260px;
+    height: 80px;
+}
+
+.headline{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

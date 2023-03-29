@@ -1,0 +1,57 @@
+.AllContentSuport{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Suport_Helou{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    height: 724px;
+    background-image: url("https://gamemag.ru/images/cache/News/News160116/2c746c3941-2_1390x600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw ;
+    z-index: 20;
+    position: relative;
+}
+
+.Suport_Helou::after{
+    position: absolute;
+    content:"";
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.5;
+    background: #212121;
+    pointer-events: none;
+}
+
+.Suport_text{
+    color: #fff;
+    opacity: 1;
+    font-size:30px ;
+    z-index: 20;
+}
+
+.Suport_input{
+    opacity: 1;
+    padding-top: 20px;
+    z-index: 20;
+}
+
+.Suport_input input{
+    height: 60px;
+    width: 40vw;
+    border: #212121 solid 1px;
+    border-radius: 10px;
+}
+
+.Suport_input button {
+    height: 60px;
+    width: 100px;
+    border: #212121 solid 1px;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Slaider{
+
+    height: 100%;
+    width: 1920px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    z-index: 4;
+    justify-content: center;
+
+}
+
+
+#myVideo {
+    z-index: 2;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+.Slaider::after{
+    position: fixed;
+    background-color: rgba(0,0,0,0.5);
+    content:"";
+    right: 0;
+    left: 0;
+    height: 800px;
+    width: 1920px;
+    margin-top: -50px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.Slaider h1{
+    font-size: 55px;
+    color: #fff;
+    z-index: 5;
+}
+
+.Informaite{
+    z-index: 5;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-top: -80px;
+    background-color: #fdfdfd;
+    width: 80%;
+    height: 160px;
+}
+
+.Informaite_name{
+    display: flex;
+    align-items: center;
+}
+
+.Informaite img{
+    height: 70px;
+    border: solid 2px #212121;
+    border-radius: 10px;
+}
+
+.Informaite_text{
+    margin-left:20px;
+}
+
+.Vk{
+    display: flex;
+}
+
+.Vk img{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius:5px;
+}
+
+.Plae{
+    display: flex;
+    align-items: center;
+
+}
+
+.Plae button{
+    border: none;
+    background-color: #ff6500;
+    color: white;
+    border-radius:10px ;
+    height: 50px;
+    width: 100px;
+}
+
+.Plae button:hover{
+    background-color: #e15701;
+}
+
+.statistical_sercal{
+    width: 80px;
+    height: 80px;
+    border: solid 3px #ff6500;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.statistical{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+@media screen and (max-width:700px){
+    .Slaider{
+        width: 100%;
+        height: 400px;
+    }
+
+    .Slaider::after{
+
+    }
+
+    .Slaider h1{
+        font-size: 25px;
+        color: #fff;
+        z-index: 5;
+    }
+
+    .Informaite{
+        margin-left: 0;
+        margin-top: -80px;
+        width: 350px;
+        height: 100px;
+    }
+
+
+
+    .Informaite_name{
+        display: flex;
+        align-items: center;
+    }
+
+    .Informaite img{
+        height: 30px;
+        border: solid 2px #212121;
+        border-radius: 10px;
+    }
+
+    .Informaite_text{
+        margin-left:20px;
+    }
+    .Informaite_text h1 {
+        font-size: 10px;
+    }
+
+    .Vk{
+        display: flex;
+    }
+
+    .Vk img{
+        margin-left: 5px;
+        height: 20px;
+        width: 20px;
+        border: none;
+        border-radius:5px;
+    }
+
+    .Plae{
+        display: flex;
+        align-items: center;
+
+    }
+
+    .Plae button{
+        border: none;
+        background-color: #ff6500;
+        color: white;
+        border-radius:10px ;
+        height: 30px;
+        width: 70px;
+    }
+
+    .Plae button:hover{
+        background-color: #e15701;
+    }
+
+    .statistical_sercal{
+        width: 50px;
+        height: 50px;
+        border: solid 3px #ff6500;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .statistical{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+        font-size: 10px;
+    }
+}

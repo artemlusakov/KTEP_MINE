@@ -1,0 +1,139 @@
+.Coments_Content{
+    border-bottom:1px solid #000 ;
+    padding-left: 50px;
+    padding: 10px;
+    display:flex ;
+    align-items: center;
+}
+
+.Coments_Head{
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/042/498/370/large/mariana-salimena-threebiomes5.jpg?1634668842);
+    height: 700px;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.Coments_Head::after{
+    top: 0;
+    left: 0;
+    position: absolute;
+    content:"";
+    height: 700px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.5;
+    background: #212121;
+    pointer-events: none;
+}
+
+
+.Coments_Head_text {
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 50px;
+    color: white;
+    z-index: 20 !important;
+
+}
+
+.Coments_Content_rightSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Coments_Content_rightSection h1{
+    font-size: 40px;
+}
+
+.LineSize{
+    padding-left: 80px;
+    height: 700px;
+    width: 800px;
+    overflow: auto;
+
+}
+
+.LineSize::-webkit-scrollbar {
+    width: 10px;
+    background-color: #fabc47;
+}
+
+
+.All_Content_BestPlaer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.All_Content_BestPlaer h1{
+    font-size: 50px;
+}
+
+.Content_BestPlaer{
+    display: flex;
+    padding-top: 20px;
+}
+.BestPlaer_Top3 h1{
+    font-size: 40px;
+}
+
+.BestPlaer_IMG img{
+    height: 900px;
+}
+
+
+.BestPlaer_Top3{
+    padding-left: 40px;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Positeons_Top3{
+    padding-top: 30px;
+    display: flex;
+}
+
+.BestPlaer_Box {
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BestPlaer_Box button{
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px ;
+}
+
+.BestPlaer_Box button:hover{
+    background-color: #383737;
+    color: white;
+}
+
+.BestPlaer_Box img {
+    height: 300px;
+    width: 300px;
+}
+
+.BestPlaer_masege{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BestPlaer_masege h1 {
+    font-size: 25px;
+}
+
+
+
+
