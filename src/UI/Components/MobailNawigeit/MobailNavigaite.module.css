@@ -158,3 +158,20 @@
         transform: translateX(100%);
     }
 }
+
+.AlaiContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.AlaiContent img {
+    height: 400px;
+    width: 400px;
+}
+
+.DialogAlai{
+  border: 2px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+}

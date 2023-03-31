@@ -19,7 +19,7 @@ const Home = () => {
                 <div className={s.Informaite_name}>
                     <img src="https://img.icons8.com/color/512/minecraft-logo--v1.png" alt="Logo_server"/>
                         <div className={s.Informaite_text}>
-                            <h1>КТЭП майн - лутший сервер для зачёта курсача 10 ребилдов из 10</h1>
+                            <h1>КТЭП майн - лучший сервер для игры с друзьями</h1>
 
                             <div className={s.Vk}>
                                 <a href=""><img src="https://cdn-icons-png.flaticon.com/512/2111/2111828.png" alt="vk"/></a>

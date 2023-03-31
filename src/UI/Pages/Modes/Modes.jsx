@@ -11,30 +11,30 @@ const Modes = () => {
             <Card
                 modalActive={modalActive}
                 setModalActive={setModalActive}
-                img={'https://img.freepik.com/free-icon/globe_318-436669.jpg'}
+                img={require('../../Asets/IMG/world.webp')}
                 name={'Выживание'}
-                text={"Ttex text text"}/>
+                text={"Стандартный режим выживания в котором вам предстоит создать свой личный дом мечты а так же не дать другим игрокам убить вас. При этом есть функция доната"}/>
 
             <Card
                 modalActive={modalActive}
                 setModalActive={setModalActive}
-                img={'https://img.freepik.com/free-icon/globe_318-436669.jpg'}
-                name={'Выживание'}
-                text={"Ttex text text"}/>
+                img={require('../../Asets/IMG/world.webp')}
+                name={'Анархия'}
+                text={"В этом режиме дозволено почти всё. Здесь нет привата а так-же "}/>
 
             <Card
                 modalActive={modalActive}
                 setModalActive={setModalActive}
-                img={'https://img.freepik.com/free-icon/globe_318-436669.jpg'}
-                name={'Выживание'}
-                text={"Ttex text text"}/>
+                img={require('../../Asets/IMG/world.webp')}
+                name={'Ванила'}
+                text={"Это тоже выживание но без донат превелегий"}/>
 
             <Card
                 modalActive={modalActive}
                 setModalActive={setModalActive}
-                img={'https://img.freepik.com/free-icon/globe_318-436669.jpg'}
-                name={'Выживание'}
-                text={"Ttex text text"}/>
+                img={require('../../Asets/IMG/world.webp')}
+                name={'Мини игры'}
+                text={"Этот режим идеально подходит для игры в компание друзей. Вам предстоит окунутся в соревновательные баталии на звание лутшего игрока в определённой мини игре"}/>
 
             </div>
             <div>

@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
 import s from  './MobailNavigaite.module.css'
 import {NavLink} from "react-router-dom";
+import Modal from "../Modal/Modal";
 const MobailNavigeit = () => {
     const [BurgerActive, setBurgerActiv] = useState(false)
+    const [modalActive, setModalActive] = useState(false)
 
     return (
         <div>
@@ -35,7 +37,24 @@ const MobailNavigeit = () => {
                     <button className={s.Navigate_Registration}>
                     <NavLink to={'./Registrait'}>Войти</NavLink>
                     </button>
-                <NavLink to={''}> <img src= {require("../../Asets/Gif/Allay.webp")} alt=""/></NavLink>
+                <NavLink onClick={() => setModalActive(true)} > <img src= {require("../../Asets/Gif/Allay.webp")} alt=""/></NavLink>
+
+                    <Modal  active={modalActive} setActive={setModalActive} height={'800px'} width={'1400px'}>
+                        <div className={s.AlaiContent}>
+                                <img src={require('../../Asets/Gif/AllayTaike.webp')} alt=""/>
+
+                            <div className={s.DialogAlai}>
+                                <h1>Allay</h1>
+                                <div className={s.AllayMasege}>
+                                    <p>
+                                        Вау ты нашёл меня. Хотя это не удевительно видемо надо было спрятатся как те 3 жабы.
+                                        <br/> Ой я тебе про них не говорил лутше не ищи а то они меня унечтожат.
+                                        <br/> Почему ты до сих пор тут иди играй
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </Modal>
                 </div>
             </nav>
         </div>

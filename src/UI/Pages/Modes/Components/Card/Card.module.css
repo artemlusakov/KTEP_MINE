@@ -11,10 +11,14 @@
 
 .Card_name{
     display: flex;
+}
 
+.Card_name h2{
+    padding-left: 10px;
 }
 
 .Card_name img{
+
     height: 50px;
     width: 50px;
 }
