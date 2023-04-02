@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import s from  './MobailNavigaite.module.css'
 import {NavLink} from "react-router-dom";
 import Modal from "../Modal/Modal";
+
 const MobailNavigeit = () => {
     const [BurgerActive, setBurgerActiv] = useState(false)
     const [modalActive, setModalActive] = useState(false)

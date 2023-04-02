@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import s from './Card.module.css'
 import Modal from "../../../../Components/Modal/Modal";
+import {Button} from "@mui/material";
 
 const Card = (props) => {
 
@@ -13,7 +14,7 @@ const Card = (props) => {
                 <h2>{props.name}</h2>
             </div>
 
-            <p>
+            <p style={{color: '#343434', padding: "10px", height: '500px'}}>
                 {props.text}
             </p>
 
@@ -22,7 +23,9 @@ const Card = (props) => {
                 setActive={props.setModalActive}
             />
 
-            <button onClick={()=> props.setModalActive(true)}>Подробнее</button>
+            <Button  style={{background: '#03A9F4', color: '#fff', border: 'none'}} onClick={()=> props.setModalActive(true)}>
+                Подробнее
+            </Button>
 
         </div>
     );

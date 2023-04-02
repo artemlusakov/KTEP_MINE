@@ -1,6 +1,7 @@
 import React from "react";
 import s from './Suport.module.css'
-import Futur from "../../Components/Futor/Futur";
+import Footer from "../../Components/Footer/Footer";
+import {Button} from "@mui/material";
 
 const Suport = () => {
     return (
@@ -11,10 +12,11 @@ const Suport = () => {
             </div>
 
             <div className={s.Suport_input}>
-            <input type="text" placeholder="Задайте свой вопрос"/> <button>Отправить</button>
+            <input className={s.MyInput} type="text" placeholder="Задайте свой вопрос"/>
+            <Button style={{background: '#03A9F4', color: '#fff', border: 'none'}}>Отправить</Button>
             </div>
         </section>
-        <Futur/>
+        <Footer/>
         </div>
     );
 };

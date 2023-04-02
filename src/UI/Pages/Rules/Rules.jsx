@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Rules.module.css'
-import Futur from "../../Components/Futor/Futur";
+import Footer from "../../Components/Footer/Footer";
 const Rules = () => {
     return (
         <div className={s.All_Components_Rules}>
@@ -69,7 +69,7 @@ const Rules = () => {
             </div>
             </div>
 
-            <Futur/>
+            <Footer/>
         </div>
     );
 };

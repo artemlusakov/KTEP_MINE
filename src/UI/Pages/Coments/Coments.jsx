@@ -1,7 +1,7 @@
 import React from "react";
 import s from './Coments.module.css'
 import Coment from './Components/Coments/Coments'
-import Futur from "../../Components/Futor/Futur";
+import Footer from "../../Components/Footer/Footer";
 
 const Coments = () => {
     return (
@@ -98,7 +98,7 @@ const Coments = () => {
                     </div>
                 </div>
             </section>
-            <Futur/>
+            <Footer/>
         </div>
     );
 };

@@ -1,14 +1,13 @@
 .Box{
-    margin-top:20px ;
+    margin: 20px 20px 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     justify-content: space-around;
     width: 220px;
-
-
+    padding: 15px 0;
 }
 
 .Box img{

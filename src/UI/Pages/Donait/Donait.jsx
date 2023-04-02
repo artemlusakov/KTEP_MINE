@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import BoxDonait from './Components/BoxDonait/BoxDonait';
 import s from './Donait.module.css';
-import Futur from "../../Components/Futor/Futur";
+import Footer from "../../Components/Footer/Footer";
 
 
 const Donait = (props) => {
@@ -25,7 +25,7 @@ const Donait = (props) => {
 
 </section>
 
-            <Futur/>
+            <Footer/>
         </div>
 
     );

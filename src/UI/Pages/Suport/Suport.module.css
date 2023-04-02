@@ -20,6 +20,7 @@
 .Suport_Helou::after{
     position: absolute;
     content:"";
+    background-size: 100vw ;
     height: 100%;
     width: 100%;
     z-index: 1;
@@ -31,8 +32,9 @@
 .Suport_text{
     color: #fff;
     opacity: 1;
-    font-size:30px ;
+    font-size: 30px;
     z-index: 20;
+    text-align: center;
 }
 
 .Suport_input{
@@ -44,8 +46,10 @@
 .Suport_input input{
     height: 60px;
     width: 40vw;
-    border: #212121 solid 1px;
+    border: none;
     border-radius: 10px;
+    padding: 30px;
+    outline: none;
 }
 
 .Suport_input button {
@@ -55,3 +59,8 @@
     border-radius: 10px;
 }
 
+@media (max-width: 1200px) {
+    .Suport_text{
+        font-size: 20px;
+    }
+}

@@ -1,11 +1,13 @@
 import React, {useState} from 'react';
 import Card from "./Components/Card/Card";
 import s from './Modes.module.css'
+import Footer from "../../Components/Footer/Footer";
 
 
 const Modes = () => {
     const [modalActive, setModalActive] = useState( false)
     return (
+        <>
         <div className={s.All_Components_Modes}>
             <div  className={s.Modes_content}>
             <Card
@@ -41,11 +43,8 @@ const Modes = () => {
                 <img src={require("../../Asets/IMG/stive.webp")} alt=""/>
             </div>
             </div>
-
-
-
-
-
+    <Footer/>
+    </>
     );
 };
 

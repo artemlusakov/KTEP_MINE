@@ -1,8 +1,10 @@
 .Modes_content{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    display: flex;
+    flex-wrap: wrap;
+    /*grid-template-columns: 50% 50%;*/
+    /*grid-template-rows: 50% 50%;*/
     width: 700px;
+    margin-left: 15px;
 }
 
 .All_Components_Modes{
