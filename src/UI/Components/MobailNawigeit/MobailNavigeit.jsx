@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import s from  './MobailNavigaite.module.css'
 import {NavLink} from "react-router-dom";
 import Modal from "../Modal/Modal";
-
 const MobailNavigeit = () => {
     const [BurgerActive, setBurgerActiv] = useState(false)
     const [modalActive, setModalActive] = useState(false)
@@ -26,7 +25,7 @@ const MobailNavigeit = () => {
 
                         <ul>
                             <li><NavLink to={'./Donait'}>Донат</NavLink></li>
-                            <li><NavLink to={'./Suport'}>Подержка</NavLink></li>
+                            <li><NavLink to={'./Suport'}>Поддержка</NavLink></li>
                             <li><NavLink to={'./Coments'}>Отзывы</NavLink></li>
                             <li><NavLink to={'./Rules'}>Правила</NavLink></li>
                             <li><NavLink to={'./Modes'}>Режимы</NavLink></li>

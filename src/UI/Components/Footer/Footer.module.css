@@ -1,0 +1,27 @@
+.AllFutorComponents{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background: #212121;
+    color: white;
+}
+
+.Pocta{
+    font-size: 13px;
+}
+.Sotseti{
+    display: flex;
+    padding-top: 20px;
+}
+
+.Sotseti img{
+    margin-left: 10px;
+    height: 50px;
+    border-radius:100% ;
+}
+
+.SotsetiAll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

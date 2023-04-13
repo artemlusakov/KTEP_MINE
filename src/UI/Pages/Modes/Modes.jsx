@@ -2,8 +2,6 @@ import React, {useState} from 'react';
 import Card from "./Components/Card/Card";
 import s from './Modes.module.css'
 import Footer from "../../Components/Footer/Footer";
-
-
 const Modes = () => {
     const [modalActive, setModalActive] = useState( false)
     return (

@@ -62,15 +62,22 @@
 .Oplata{
     padding-top: 30px;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 35% 35% 35%;
     height: 300px;
     width: 400px;
 
 }
 
 .Oplata img {
+    padding: 10px;
     border-radius: 0px;
     border: none;
     height: 100px;
     width: 250px;
+}
+
+.Oplata img:hover {
+    border-radius: 6px;
+    border:solid 1px #000;
+
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import s from './Suport.module.css'
-import Footer from "../../Components/Footer/Footer";
 import {Button} from "@mui/material";
+import Futor from "../../Components/Footer/Footer";
+import Footer from "../../Components/Footer/Footer";
 
 const Suport = () => {
     return (

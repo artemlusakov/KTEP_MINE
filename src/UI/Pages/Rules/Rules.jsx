@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Rules.module.css'
+import Futor from "../../Components/Footer/Footer";
 import Footer from "../../Components/Footer/Footer";
 const Rules = () => {
     return (

@@ -23,11 +23,11 @@ const BoxDonait = (props) => {
                         <h2>Выберите способ оплаты</h2>
                         <div className={s.Oplata}>
                             <NavLink to={''}><img src="https://upload.wikimedia.org/wikipedia/ru/8/89/Logo_qiwi_rgb.png" alt=""/></NavLink>
-                            <NavLink to={''}><img src="https://upload.wikimedia.org/wikipedia/ru/8/89/Logo_qiwi_rgb.png" alt=""/></NavLink>
-                            <NavLink to={''}><img src="https://upload.wikimedia.org/wikipedia/ru/8/89/Logo_qiwi_rgb.png" alt=""/></NavLink>
-                            <NavLink to={''}><img src="https://upload.wikimedia.org/wikipedia/ru/8/89/Logo_qiwi_rgb.png" alt=""/></NavLink>
-                            <NavLink to={''}><img src="https://upload.wikimedia.org/wikipedia/ru/8/89/Logo_qiwi_rgb.png" alt=""/></NavLink>
-                            <NavLink to={''}><img src="https://upload.wikimedia.org/wikipedia/ru/8/89/Logo_qiwi_rgb.png" alt=""/></NavLink>
+                            <NavLink to={''}><img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg" alt=""/></NavLink>
+                            <NavLink to={''}><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Mir-logo.SVG.svg/2560px-Mir-logo.SVG.svg.png" alt=""/></NavLink>
+                            <NavLink to={''}><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Visa_Electron.svg/1200px-Visa_Electron.svg.png" alt=""/></NavLink>
+                            <NavLink to={''}><img src="https://www.webmoney.ru/img/icons/wmlogo_vector_blue.png?1679918368" alt=""/></NavLink>
+                            <NavLink to={''}><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/c/c7/%D0%A1%D0%91%D0%9F_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.svg/1200px-%D0%A1%D0%91%D0%9F_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.svg.png" alt=""/></NavLink>
                         </div>
 
                             <Button style={{background: '#03A9F4', color: '#fff'}}>Оплатить</Button>
