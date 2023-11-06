@@ -20,9 +20,9 @@ const Footer = () => {
             <div className={s.SotsetiAll}>
                 <h4>Наши сотсети</h4>
                 <div className={s.Sotseti}>
-                    <a href="https://vk.com/feed" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/VK.com-logo.svg/2048px-VK.com-logo.svg.png" alt="vk"/></a>
-                    <a href="https://web.telegram.org" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/800px-Telegram_2019_Logo.svg.png" alt="telegram"/></a>
-                    <a href="https://discord.com/" target="_blank"><img src="https://play-lh.googleusercontent.com/Wvjx6rVlC1rGWKkln3r-23ICKV--sxEEUuq7jd15BeJan8v-wS7TGwm0NHXqqon18w" alt="discord"/></a>
+                    <a href="https://vk.com/feed" target="_blank"><img src={require('../../Asets/IMG/Vk.webp')} alt="vk"/></a>
+                    <a href="https://web.telegram.org" target="_blank"><img src={require('../../Asets/IMG/Telegram_Messenger.png')} alt="telegram"/></a>
+                    <a href="https://discord.com/" target="_blank"><img src={require('../../Asets/IMG/Diskord.png')} alt="discord"/></a>
                 </div>
             </div>
         </div>

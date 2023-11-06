@@ -1,0 +1,28 @@
+.Simple_raiting_item{
+    position: absolute;
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+}
+
+.Simple_raiting_label{
+    flex: 0 0 20%;
+    height: 100%;
+    cursor: pointer;
+    color: #212121;
+}
+
+.Simple_raiting_label::before{
+    content: "★";
+    display: block;
+    transition: color 0.3s ease 0s;
+}
+
+.Simple_raiting_label:hover,
+.Simple_raiting_label:hover ~ .Simple_raiting_label,
+.Simple_raiting_label:checked ~ .Simple_raiting_label:hover{
+    color: #f5c262;
+}

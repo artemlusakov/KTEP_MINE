@@ -1,4 +1,5 @@
 .Modes_content{
+    padding-top: 60px;
     display: flex;
     flex-wrap: wrap;
     /*grid-template-columns: 50% 50%;*/

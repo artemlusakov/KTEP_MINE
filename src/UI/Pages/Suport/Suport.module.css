@@ -1,10 +1,12 @@
 .AllContentSuport{
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .Suport_Helou{
+    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;

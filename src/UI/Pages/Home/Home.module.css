@@ -5,9 +5,8 @@
 }
 
 .Slaider{
-
+    padding-top: 60px;
     height: 100%;
-    max-width: 1920px;
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -20,6 +19,7 @@
 
 
 #myVideo {
+
     z-index: 2;
     position: fixed;
     right: 0;
@@ -29,15 +29,14 @@
 
 
 .Slaider::after{
-    position: fixed;
+    position: absolute;
     background-color: rgba(0,0,0,0.5);
     content:"";
     right: 0;
     left: 0;
     height: 800px;
-    max-width: 1920px;
     width: 100%;
-    margin-top: -50px;
+
     z-index: 1;
     pointer-events: none;
 }

@@ -1,5 +1,6 @@
 .Donaite{
-    margin-top: 20px;
+
+    margin-top: 60px;
     display: flex;
     padding: 0 20px 30px 20px;
     /*grid-template-columns: 20% 20% 20% 20% 20%;*/
@@ -10,11 +11,13 @@
     justify-content: space-around;
 }
 .headline img{
+
     width: 260px;
     height: 80px;
 }
 
 .headline{
+    padding-top: 60px;
     width: 100%;
     display: flex;
     justify-content: center;

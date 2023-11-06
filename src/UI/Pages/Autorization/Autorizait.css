@@ -1,0 +1,62 @@
+.AllComponentAutorizaite{
+    background-image: url("../../Asets/IMG/reg.webp") ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AllContentBoxAutorizait h2{
+    color: white;
+}
+
+.AllContentBoxAutorizait{
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    min-height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    text-align: center;
+
+}
+
+.AllContentBoxAutorizait input{
+    margin-top: 10px;
+    height: 50px;
+}
+
+.ButtonBox{
+    margin-top: 20px;
+}
+
+.AuthButton {
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 15px;
+}
+
+.AuthInput {
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.ButtonBox button{
+    height: 50px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}

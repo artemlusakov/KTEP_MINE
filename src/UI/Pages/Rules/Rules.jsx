@@ -2,9 +2,14 @@ import React from 'react';
 import s from './Rules.module.css'
 import Futor from "../../Components/Footer/Footer";
 import Footer from "../../Components/Footer/Footer";
+import MobailNavigeit from "../../Components/MobailNawigeit/MobailNavigeit";
 const Rules = () => {
     return (
+        <div>
+        <MobailNavigeit/>
+
         <div className={s.All_Components_Rules}>
+
             <div className={s.Rules}>
             <div className={s.Bloc}>
                 <div className={s.Bloc_name}>
@@ -71,6 +76,7 @@ const Rules = () => {
             </div>
 
             <Footer/>
+        </div>
         </div>
     );
 };

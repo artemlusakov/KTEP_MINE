@@ -19,7 +19,7 @@ const BoxDonait = (props) => {
                 <div className={s.ModalContent}>
                 <p>Решили купить?</p>
                     <div className={s.ModalInput}>
-                        <input placeholder={'Введите никнейм'}/>
+                        <input style={{border: '1px solid #ccc'}} className={"AuthInput"} placeholder={'Введите никнейм'}/>
                         <h2>Выберите способ оплаты</h2>
                         <div className={s.Oplata}>
                             <NavLink to={''}><img src="https://upload.wikimedia.org/wikipedia/ru/8/89/Logo_qiwi_rgb.png" alt=""/></NavLink>
@@ -30,7 +30,7 @@ const BoxDonait = (props) => {
                             <NavLink to={''}><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/c/c7/%D0%A1%D0%91%D0%9F_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.svg/1200px-%D0%A1%D0%91%D0%9F_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF.svg.png" alt=""/></NavLink>
                         </div>
 
-                            <Button style={{background: '#03A9F4', color: '#fff'}}>Оплатить</Button>
+                            <Button style={{background: '#03A9F4', color: '#fff', padding: '25px 15px'}}>Оплатить</Button>
                     </div>
                 </div>
             </Modal>

@@ -2,12 +2,15 @@ import React, {useState} from 'react';
 import BoxDonait from './Components/BoxDonait/BoxDonait';
 import s from './Donait.module.css';
 import Footer from "../../Components/Footer/Footer";
+import MobailNavigeit from "../../Components/MobailNawigeit/MobailNavigeit";
 
 
 
 const Donait = (props) => {
     return (
         <div>
+            <MobailNavigeit/>
+
             <section className={s.headline}>
                 <img src={require('../../Asets/IMG/Donaite.webp')} alt=""/>
             </section>

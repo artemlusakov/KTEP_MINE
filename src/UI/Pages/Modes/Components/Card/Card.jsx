@@ -23,9 +23,7 @@ const Card = (props) => {
                 setActive={props.setModalActive}
             />
 
-            <Button  style={{background: '#03A9F4', color: '#fff', border: 'none'}} onClick={()=> props.setModalActive(true)}>
-                Подробнее
-            </Button>
+
 
         </div>
     );
